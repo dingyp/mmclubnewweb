@@ -115,6 +115,10 @@
                 .imglunbo{
                     height: 870px;
                 }
+                divlv{
+                    background-image: url('img/bg.png',);
+                    background-size: cover;
+                }
                 
                 </style>
                 <div id="lunbo" class="carousel slide" style="height:100%;" data-ride="carousel">
@@ -196,7 +200,7 @@
             </div>
         </div>
     </section>
-    <section class="success" id="bumen">
+    <section class="success" style="background-image: url('img/bg.png');background-size: hover" id="bumen">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -265,7 +269,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/members/11-xr.jpg" class="img-responsive" alt="">
+                        <img src="img/members/11-xr.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -275,7 +279,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/members/12-dzq.jpg" class="img-responsive" alt="">
+                        <img src="img/members/12-dzq.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -295,7 +299,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/members/zy.jpg" class="img-responsive" width="80%">
+                        <img src="img/members/zy.jpg" class="img-responsive" >
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -313,21 +317,30 @@
         </div>
     </section>
     <!-- About Section -->
-    <section class="success" id="production">
+    <section  id="production" style="padding:0" >
+         <img src="img/lefttop.png" style="position: absolute;left:0px;width:75%">
         <div class="container">
-            <div class="row">
+
+            <div class="row" style="margin-top: 150px">
+                
                 <div class="col-lg-12 text-center">
-                    <h2>作品展示</h2>
-                    <hr class="star-light">
+                    <h2>掌上南邮v4.0</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="textleft col-lg-4 col-lg-offset-2">
+               <!--  <div class="textleft col-lg-4 col-lg-offset-2">
                     <h3>掌上南邮v4.0</h3>
-                    <p> iOS,Android</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>这是一款专注于南邮学生的校园生活app，柚子们可以在app中了解失物招领信息，发布二手信息，查看一些好玩的新闻和活动等等</p>
+                   
+                </div> -->
+                <div class="col-lg-12" style="padding-left: 15%;padding-right: 15%">
+                     <center><p> iOS/Android</p></center>
+                    <p>这是一款专注于南邮学生的校园生活app，柚子们可以在app中了解失物招领信息，发布二手信息，查看一些好玩的新闻和活动等等~</p>
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> 下载</a>
+
+            </div>
                 </div>
 
                  </div>
@@ -335,7 +348,7 @@
 
             <div class="row">
 
-                <center>
+             <!--    <center>
                     <h3>app截图</h3>
                     <br><br>
                 <div class="col-sm-3">
@@ -368,28 +381,31 @@
                   
                 </div>
             </div>
-                </center>
+                </center> -->
+               
                 <br><br><br>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> 下载</a>
-
-            </div>
+            
            
         </div>
         </div>
+        <div style="position:relative">
+        <img src="img/hn.png" style="width:100%">
+         <img src="img/rightdown.png" style="width:35%; position: absolute;left: 65%;top:44%">
+         </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" style="padding:0">
+         <img src="img/lefttop.png" style="position: absolute;left:0px;width:75%">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center" style="margin-top: 150px">
                     <h2>加入我们</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
+
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
@@ -434,6 +450,10 @@
                 </div>
             </div>
         </div>
+         <div style="position:relative">
+        
+         <img src="img/rightdown.png" style="width:35%; margin-left: 65%">
+         </div>
     </section>
     <!-- Footer -->
     <footer class="text-center">
