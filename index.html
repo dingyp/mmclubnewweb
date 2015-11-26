@@ -78,26 +78,41 @@
             max-width: initial !important;
             
         }
+        .bgblack{
+            background-color: black;
+        }
         </style>   
 
 
     <!-- Header -->
     <header>
-        <section class="success su-cntainer" height="100%" id="sec">
+        <section class="su-cntainer bgblack" height="100%" id="sec">
         <div class="container-fluid bg1">
             <div class="row">
                 <style type="text/css">
                 @media(min-width: 768px){
                     #ddiv{
                         height: 870px;
+                        -webkit-filter: blur(10px); /* Chrome, Opera */
+                   -moz-filter: blur(10px);
+                    -ms-filter: blur(10px);    
+                        filter: blur(10px); 
                     }
+
                 }
                 @media(max-width: 768px){
                      #ddiv{
-                        height: 670px;
+                        height: 600px;
+                        -webkit-filter: blur(10px); /* Chrome, Opera */
+                   -moz-filter: blur(10px);
+                    -ms-filter: blur(10px);    
+                        filter: blur(10px); 
                     }
                 }
-                    
+                .imglunbo{
+                    height: 870px;
+                }
+                
                 </style>
                 <div id="lunbo" class="carousel slide" style="height:100%;" data-ride="carousel">
                     
@@ -110,16 +125,16 @@
                    
                     <div class="carousel-inner" role="listbox" id="ddiv">
                         <div class="item active">
-                            <img class="imgbg" id="img1" src="img/lunbo11.png" height="100%">
+                            <img class="imgbg imglunbo" id="img1" src="img/lunbo1.png" height="100%">
                         </div>
                         <div class="item">
-                            <img class="imgbg" id="img2" src="img/lunbo21.png"  height="100%">
+                            <img class="imgbg imglunbo" id="img2" src="img/lunbo2.png"  height="100%">
                         </div>
                         <div class="item">
-                            <img class="imgbg" id="img3" src="img/lunbo31.png" height="100%">
+                            <img class="imgbg imglunbo" id="img3" src="img/lunbo3.png" height="100%">
                         </div>
                         <div class="item">
-                            <img class="imgbg" id="img4" src="img/lunbo41.png" height="100%">
+                            <img class="imgbg imglunbo" id="img4" src="img/lunbo4.png" height="100%">
                         </div>
                     </div>
                 </div>
