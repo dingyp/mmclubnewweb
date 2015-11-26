@@ -93,6 +93,7 @@
                 @media(min-width: 768px){
                     #ddiv{
                         height: 870px;
+                        max-width: 100%;
                         -webkit-filter: blur(10px); /* Chrome, Opera */
                    -moz-filter: blur(10px);
                     -ms-filter: blur(10px);    
@@ -103,10 +104,12 @@
                 @media(max-width: 768px){
                      #ddiv{
                         height: 600px;
+                        max-width: 100%;
                         -webkit-filter: blur(10px); /* Chrome, Opera */
                    -moz-filter: blur(10px);
                     -ms-filter: blur(10px);    
                         filter: blur(10px); 
+
                     }
                 }
                 .imglunbo{
@@ -150,18 +153,23 @@
                     <div class="intro-text">
                         <span class="name">Hello MMClub!</span>
                         <hr class="star-light">
-                        <span class="skills">We are iOS,Android,Web Developer Designer</span>
+                        <span class="skills">We are iOS,Android,Web Developer Designers</span>
                     </div>
                 </div>
             </div>
         </div>
         </section>
     </header>
-    <section class="erro" id="jieshao">
+    <style type="text/css">
+     .textleft{
+        text-align: left;
+     }
+    </style>
+    <section id="jieshao">
         <div class="container">
             <div class="col-lg-12 text-center">
             <br/>
-                <h2>社团介绍</h2>
+                <h2>MMClub简介</h2>
 
 
                  <hr class="star-primary">
@@ -169,15 +177,17 @@
                     <br>
                     <br>
                    
-                 <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
+                 <div class="row" style="margin-top: 50px; margin-bottom: 120px">
+                <!-- <div class="col-lg-4 col-lg-offset-2">
                     <center>
-                    <p>南邮MMClub</p>
+                    <h3>南邮MMClub</h3>
 
                     <img class="img-responsive" src="img/logo.png" width="200" style="margin-top: 50px;margin-bottom: 50px"></center>
-                </div>
-                <div class="col-lg-4">
-                      <p>南京邮电大学移动互联网俱乐部是中国移动Mobile Market(简称MM)百万青年创业计划在南京邮电大学校园的 “移动MM”创新创业基地之一，有助于进一步推进我校学生创业项目从“蓝图”到“现实”的转化，对搭建创新创业实践的指导、服务、交流平台，培育和发现优质的科技项目和高素质的创新人才，形成互联网行业科技人才从校园至企业的无缝对接具有重要的示范意义，也为我校学子提供一个展现自我价值、实现人生梦想的大舞台。</p>
+                </div> -->
+                <div class="col-lg-12 textleft" style="padding-left: 15%;padding-right: 15%" >
+                    
+
+                      <p>南京邮电大学移动互联网俱乐部是中国移动Mobile Market(简称MM)百万青年创业计划在南京邮电大学校园的 “移动MM”创新创业基地之一。有助于进一步推进我校学生创业项目从“蓝图”到“现实”的转化，对搭建创新创业实践的指导、服务、交流平台，形成互联网行业科技人才从校园至企业的无缝对接具有重要的示范意义，也为我校学子提供一个展现自我价值、实现人生梦想的大舞台。</p>
                 </div>
 
                  </div>
@@ -312,8 +322,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>掌上南邮v4.0 iOS,Android</p>
+                <div class="textleft col-lg-4 col-lg-offset-2">
+                    <h3>掌上南邮v4.0</h3>
+                    <p> iOS,Android</p>
                 </div>
                 <div class="col-lg-4">
                     <p>这是一款专注于南邮学生的校园生活app，柚子们可以在app中了解失物招领信息，发布二手信息，查看一些好玩的新闻和活动等等</p>
@@ -385,38 +396,40 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>名字</label>
-                                <input type="text" class="form-control" placeholder="名字" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="名字" id="name" required data-validation-required-message="请输入你的名字">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>专业</label>
-                                <input type="email" class="form-control" placeholder="专业" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="专业" id="email" required data-validation-required-message="请输入你的专业">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>电话</label>
-                                <input type="tel" class="form-control" placeholder="电话" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="电话" id="phone" required data-validation-required-message="请输入你的电话号码">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>QQ</label>
-                                <textarea rows="5" class="form-control" placeholder="QQ" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="QQ" id="message" required data-validation-required-message="请输入你的qq"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
                         <div id="success"></div>
+                        <center>
                         <div class="row">
                             <div class="form-group col-xs-12">
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
+                        </center>
                     </form>
                 </div>
             </div>
